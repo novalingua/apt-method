@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>APT Method</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/dracula.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+    <!-- Font awesome is required for the chalkboard plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom controls plugin is used to for opening and closing annotation modes. -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/plugin.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/style.css">
+    <!-- Chalkboard plugin -->
+    <script src="plugin/chalkboard/plugin.js"></script>
+    <link rel="stylesheet" href="plugin/chalkboard/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js-plugins/menu/font-awesome/css/fontawesome.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+          <h2>General tips and tricks</h2>
+        </section>
+				<section>
+          <ul>
+            <li>Answer questions WHILE you're listening</li>
+            <li>Learn common English names</li>
+            <li>Watch out for common traps</li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+             <li>Words or phrases that indicate <em>possible</em> upcoming contradiction</li>
+             <ul>
+               <li>at first, originally</li>
+               <li>but, however, although, in fact</li>
+               <li>in the past, last year</li>
+               <li>intend, plan</li>
+             </ul>
+             <li> Phrases like "both agree", "both think" in the question</li>
+             <ul>
+               <li><b>All</b> options will be mentioned</li>
+               <li>Listen for <b>agreement</b> (right, yes, agree, etc.)</li>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <h2>APT Method</h2>
+        </section>
+        <section>
+          <h3>Before you listen</h3>
+        </section>
+        <section>
+          <ul>
+            <li>Skill 1: <b>A</b>nalyze the questions before you listen</li>
+            <ul>
+              <li>Read <b>directions</b></li>
+              <li>Analyze <b>question type</b></li>
+              <li>Be aware of the <b>speakers</b> and the <b>topic</b></li>
+              <li>Look at the <b>organization</b> of information</li>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>Skill 2: <b>P</b>redict answers</li>
+            <ul>
+              <li>Minimum</li>
+              <ul>
+                <li>Determine parts of speech (noun, verb, adjective, adverb)</li>
+                <li>Numbers (money, date, time)</li>
+                <li>Names, proper nouns</li>
+                <li>What traps can there be?</li>
+              </ul>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>Underline <b>keywords</b> in the questions</li>
+            <ul>
+              <li>"Landmarks" - words that can help you <b>keep track</b></li>
+              <li>What you are listening for</li>
+              <li>Words that help <b>differentiate</b> between answers</li>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>Make guesses (part 1 and 4)</li>
+            <ul>
+              <li>Try to guess an answer that fits both grammatically and semantically</li>
+            </ul>
+          </ul>
+        </section>
+        <section>
+          <h3>While you listen</h3>
+        </section>
+        <section>
+          <ul>
+            <li>Skill 3: <b>T</b>rack the questions as you listen</li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>Answers come <b>in order</b></li>
+            <li>Use <b>analysis</b> and <b>prediction</b> to follow along</li>
+            <li>Focus on the current question and the next question</li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li><b>Skip</b> questions that you missed</li>
+            <li>Move on to the <b>next question</b> as soon as you hear an answer</li>
+            <li>Listen closely as sometimes speakers change their minds or correct themselves</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Examples</h2>
+        </section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+        hash: true,
+        customcontrols: {
+        controls: [
+          { icon: '<i class="fa fa-pen-square"></i>',
+            title: 'Toggle chalkboard (B)',
+            action: 'RevealChalkboard.toggleChalkboard();'
+          },
+          { icon: '<i class="fa fa-pen"></i>',
+            title: 'Toggle notes canvas (C)',
+            action: 'RevealChalkboard.toggleNotesCanvas();'
+          }
+        ]
+        },
+        chalkboard: {
+        boardmarkerWidth: 3,
+        chalkWidth: 7,
+        chalkEffect: 1.0,
+        storage: null,
+        src: null,
+        readOnly: undefined,
+        transition: 800,
+        theme: "chalkboard",
+        background: [ 'rgba(127,127,127,.1)' , path + 'img/blackboard.png' ],
+        grid: { color: 'rgb(50,50,10,0.5)', distance: 80, width: 2},
+        eraser: { src: path + 'img/sponge.png', radius: 20},
+        boardmarkers : [
+                { color: 'rgba(100,100,100,1)', cursor: 'url(' + path + 'img/boardmarker-black.png), auto'},
+                { color: 'rgba(30,144,255, 1)', cursor: 'url(' + path + 'img/boardmarker-blue.png), auto'},
+                { color: 'rgba(220,20,60,1)', cursor: 'url(' + path + 'img/boardmarker-red.png), auto'},
+                { color: 'rgba(50,205,50,1)', cursor: 'url(' + path + 'img/boardmarker-green.png), auto'},
+                { color: 'rgba(255,140,0,1)', cursor: 'url(' + path + 'img/boardmarker-orange.png), auto'},
+                { color: 'rgba(150,0,20150,1)', cursor: 'url(' + path + 'img/boardmarker-purple.png), auto'},
+                { color: 'rgba(255,220,0,1)', cursor: 'url(' + path + 'img/boardmarker-yellow.png), auto'}
+        ],
+        chalks: [
+                { color: 'rgba(255,255,255,0.5)', cursor: 'url(' + path + 'img/chalk-white.png), auto'},
+                { color: 'rgba(96, 154, 244, 0.5)', cursor: 'url(' + path + 'img/chalk-blue.png), auto'},
+                { color: 'rgba(237, 20, 28, 0.5)', cursor: 'url(' + path + 'img/chalk-red.png), auto'},
+                { color: 'rgba(20, 237, 28, 0.5)', cursor: 'url(' + path + 'img/chalk-green.png), auto'},
+                { color: 'rgba(220, 133, 41, 0.5)', cursor: 'url(' + path + 'img/chalk-orange.png), auto'},
+                { color: 'rgba(220,0,220,0.5)', cursor: 'url(' + path + 'img/chalk-purple.png), auto'},
+                { color: 'rgba(255,220,0,0.5)', cursor: 'url(' + path + 'img/chalk-yellow.png), auto'}
+        ]
+        },
+        // ...
+        plugins: [ RevealChalkboard, RevealCustomControls, RevealMarkdown, RevealHighlight, RevealNotes ],
+        // ...
+			});
+		</script>
+	</body>
+</html>
